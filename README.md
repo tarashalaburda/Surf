@@ -8,7 +8,9 @@ Used:
 - Scss | Output Styles - "expanded" - for readability
 - Gulp
 - BEM
-- jQuery
+- jQuery  
+- Slick Slider Plugin
+- Animate.css
 
 
 - Responsive and Adaptive
