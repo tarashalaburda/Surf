@@ -213,6 +213,9 @@
   .slider-map .slick-current .slider-dots__content {
     background: rgba(#ccc, 0.7);
   }
+  .slider-dotshead {
+    height: 30px;
+  }
 }
 
 @media (max-width: 1040px) {
@@ -341,9 +344,6 @@
   .slider-dotshead {
     display: none;
   }
-}
-
-@media (max-width: 900px) {
 }
 
 @media (max-width: 767px) {

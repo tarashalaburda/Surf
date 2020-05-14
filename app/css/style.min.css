@@ -3766,6 +3766,8 @@ body {
   background-color: #171919;
   color: #ffffff;
   text-transform: uppercase;
+  min-width: 320px;
+  overflow-x: hidden;
 }
 
 a {
@@ -3826,7 +3828,7 @@ li {
   top: 50%;
 }
 
-.title span {
+.title div {
   font-size: 200px;
   color: rgba(255, 255, 255, 0.02);
   position: relative;
@@ -3835,6 +3837,10 @@ li {
           transform: translateX(-50px);
   display: inline-block;
   font-weight: 800;
+}
+
+.title span {
+  display: inline-block;
 }
 
 .title h3 {
@@ -4437,6 +4443,7 @@ input[type="number"] {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
+  z-index: 1;
 }
 
 .slider-dots__content::before {
@@ -5095,6 +5102,9 @@ input[type="number"] {
   }
   .slider-map .slick-current .slider-dots__content {
     background: rgba(204, 204, 204, 0.7);
+  }
+  .slider-dotshead {
+    height: 30px;
   }
 }
 
